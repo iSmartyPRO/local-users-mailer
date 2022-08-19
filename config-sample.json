@@ -1,13 +1,14 @@
 {
-  "SearchBase": "OU=Groups,OU=Account,DC=example,DC=com",
-  "SmtpServer": "exchange.example.com",
-  "EmailFrom": "Automailer <AutoMailer@example.com>",
-  "EmailUsername": "AutoMailer@example.com",
-  "EmailPassword": "emailPassword321",
-  "EmailTo": "admins@example.com",
-  "EmailSubject": "Отчёт по группе безопасности",
-  "AppPath": "D:\\apps\\security-group-mailer",
-  "TaskName": "Security Group Notifications",
-  "TaskUsername": "yourUsername",
-  "TaskPassword": "yourPassword"
+  "AppPath": "D:\\apps\\local-users-mailer",
+  "TaskName": "Send List of Local Users to Email",
+  "TaskUsername": "mailer",
+  "TaskPassword": "mailerPassword",
+  "EmailServer": "smtp.yandex.ru",
+  "EmailServerPort": 587,
+  "EnableSsl": true,
+  "EmailSenderName": "Automailer",
+  "EmailUser": "Automailer@example.com",
+  "EmailPass": "mailPassword",
+  "EmailSubject": "User List",
+  "Recipients": ["user@example.com"]
 }
