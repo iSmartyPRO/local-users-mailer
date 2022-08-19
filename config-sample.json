@@ -1,0 +1,13 @@
+{
+  "SearchBase": "OU=Groups,OU=Account,DC=example,DC=com",
+  "SmtpServer": "exchange.example.com",
+  "EmailFrom": "Automailer <AutoMailer@example.com>",
+  "EmailUsername": "AutoMailer@example.com",
+  "EmailPassword": "emailPassword321",
+  "EmailTo": "admins@example.com",
+  "EmailSubject": "Отчёт по группе безопасности",
+  "AppPath": "D:\\apps\\security-group-mailer",
+  "TaskName": "Security Group Notifications",
+  "TaskUsername": "yourUsername",
+  "TaskPassword": "yourPassword"
+}
